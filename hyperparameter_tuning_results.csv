@@ -1,0 +1,10 @@
+Model,Best_Params,GridSearch_CV_Score,Test_Accuracy
+Logistic Regression,"{'C': 0.5, 'penalty': 'l2', 'solver': 'saga'}",0.8387318632143467,0.820627802690583
+SVM Linear,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'linear'}",0.8344329590997267,0.8161434977578476
+SVM RBF,"{'C': 10.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.8280479864228638,0.757847533632287
+Decision Tree,"{'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 30}",0.7924452113744745,0.7802690582959642
+Random Forest,"{'max_depth': 15, 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 100}",0.8348412858659511,0.7982062780269058
+Gradient Boosting,"{'learning_rate': 0.15, 'max_depth': 5, 'min_samples_split': 20, 'n_estimators': 100}",0.8450495900585391,0.7982062780269058
+Bagging,"{'max_features': 0.8, 'max_samples': 0.8, 'n_estimators': 50}",0.8260375235956611,0.7802690582959642
+LDA,"{'shrinkage': None, 'solver': 'svd'}",0.8181261561721269,0.8385650224215246
+QDA,{'reg_param': 0.1},0.8073539273000685,0.757847533632287
